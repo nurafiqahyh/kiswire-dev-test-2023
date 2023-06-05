@@ -1,0 +1,4 @@
+SELECT Orders.OrderID, Customers.CustName COUNT(*) customer_appears
+FROM Orders
+INNER JOIN Customer ON Orders.CustomerID=Customers.CustomerID
+HAVING customer_appears>3; 
