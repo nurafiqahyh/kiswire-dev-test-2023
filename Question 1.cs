@@ -3,7 +3,7 @@ using System;
 public class Question1 {
 	
 	// Returns sum of all digits in number from 1 to n
-	static int sumDigits1ToN(int n)
+	static int sumdigits1ToN(int n)
 	{
 		int result = 0;
 	
