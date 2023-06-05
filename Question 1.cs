@@ -3,13 +3,10 @@ using System;
 public class Question1 {
 	
 	// Returns sum of all digits in number from 1 to n
-	static int sumOfDigitsFrom1ToN(int n)
+	static int sumDigits1ToN(int n)
 	{
-		// initialize result
 		int result = 0;
 	
-		// One by one compute sum of digits
-		// in every number from 1 to n
 		for (int k = 1; k <= n; k++)
 			result += sumOfNumbers(k);
 	
@@ -37,9 +34,8 @@ public class Question1 {
 		
 		Console.WriteLine("Sum of digits"
 			+ " in numbers from 1 to " + n + " is="
-				+ sumOfDigitsFrom1ToN(n) + ". Thank you!");
+				+ sumdigits1ToN(n) + ". Thank you!");
 
 		Console.ReadKey();
 	}
 }
-
